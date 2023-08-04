@@ -1,0 +1,182 @@
+.bookTotal{
+    background-color: beige;
+    position: relative;
+    width: 38vh;
+    height: 42vh;
+    left: 9vh;
+    top: 5vh;
+}
+#book1{
+    position: relative;
+    left: 1vh;
+    top: 1vh;
+    width: 35vh;
+    height: 20vh;
+    object-fit: contain;
+}
+.editb,.deleteb{
+    position: relative;
+    width: 92px;
+    top: -3vh;
+    height: -1vh;}
+
+    .navbar13{
+        height: 104px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 282px;
+        top: 24px;
+        background-color: #dab7b4;
+        width: 1113px;
+        border-radius: 20px;
+      }
+
+
+      .manage{
+        position: relative;
+        top: -81vh;
+        left: 42vh;
+      }
+
+      .displayList {
+        position: relative;
+        top: -85vh;
+        left: 31vh;
+        width: 151vh;
+    }
+    .displayForm {
+        position: relative;
+        top: -85vh;
+        left: 35vh;
+        /* height: 69vh; */
+        /* background-color: #c7ebdf; */
+        width: 29%;
+        border-radius: 29px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border:1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    .displayCat{
+        left: 84vh;
+        top: -60vh;
+        position: relative;
+        background-color: #ddcfd6;
+        border-radius: 19px;
+    }
+    .form19{
+        position: relative;
+    }
+    .displayTableC{
+        position: relative;
+        top: -47vh;
+        left: 95vh;
+    }
+
+    .button-row {
+        display: flex;
+        gap: 10px;
+      }
+
+    .D12{
+        position: relative;
+        top: -13px;
+        width: 85px;
+        left: 11px;
+   
+    }
+
+    .bodyy00{
+        
+        background-size: 100%;
+        background-attachment: fixed;
+        background-image: url(../assets/bg/patel1.jpg);
+    }
+
+    .add18{
+        top: -10.7px;
+        width: 94px;
+        position: relative;
+    }
+    .Notes10{
+        position: relative;
+        background: #674874;
+        border-radius: 3px;
+    }
+    .button18{
+        position: relative;
+    
+  
+    display: flex;
+    width: 30vh;
+    /* height: 8vh; */
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    left: 5vh
+    }
+    .addNotes{
+        position: relative;
+        width: 36vh;
+        left: 16px;
+        top: 5vh;
+        background: darkgrey;
+        /* height: 32vh; */
+        border-radius: -35px;
+        border-radius: unset;
+    }
+    .btnb{
+        position: relative;
+        top: -10.7px;
+    }
+    .highlight {
+        background-color: yellow; /* Change the highlight color as desired */
+        font-weight: bold; /* Add bold style to the highlighted text */
+      }
+      
+    .fileUP{
+        position: relative;
+        border-radius: 2px;
+        }
+        #logoutBtn {
+            width: 38px;
+            position: relative;
+            top: 10vh;
+          }
+    .Notes{
+        position: absolute;
+        background: whitesmoke;
+        width: 40vh;
+        height: 64vh;
+        left: 80.3px;
+        top: 72vh;
+        border-radius: 7px;}
+.t01{
+    position: relative;
+    left: 43px;
+    width: 120px;
+    padding-left: 6px;
+}
+.a01{    width: 120px;
+    padding-left: 6px;
+    position: relative;
+    left: 21px;}
+.s01{    width: 120px;
+    padding-left: 6px;
+    position: relative;
+    left: 33px;}
+.d01{    width: 120px;
+    padding-left: 6px;
+    position: relative;
+    left: 26px;
+}
+.c01{    width: 120px;
+    padding-left: 6px;
+    position: relative;
+}
+.upload02{
+    position: relative;
+}

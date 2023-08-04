@@ -1,0 +1,179 @@
+/*Catalog-Section*/
+.catalog-area {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -10vh;
+
+
+}
+
+.catalog-slider {
+
+
+
+
+    height: 340px;
+    margin: auto;
+    position: relative;
+
+
+    width: 100%;
+
+    overflow: hidden;
+
+    margin-bottom: 0%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+
+}
+
+.catalog-slide-track {
+    display: flex;
+    width: max-content;
+
+    animation: scroll 50s linear infinite alternate;
+    animation-fill-mode: both;
+
+
+}
+
+.catalog-slide-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(var(--total-width)));
+    }
+}
+
+.catalog-slide {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-right: 10px;
+
+    perspective: 100px;
+
+}
+
+img {
+
+    height: auto;
+    width: max-content;
+    transition: transform 1.2s;
+
+    filter: brightness(100%);
+    transition: filter 0.5s ease-in-out;
+
+    z-index: 1;
+}
+
+img:hover {
+    animation-play-state: paused;
+    filter: brightness(50%);
+    z-index: 2;
+}
+
+
+
+
+/*Section - 2*/
+
+.catalog-slider-2 {
+
+
+
+
+    height: 340px;
+    margin: auto;
+    position: relative;
+
+    display: grid;
+    width: 100%;
+
+    overflow: hidden;
+
+    margin-top: 0%;
+
+    grid-template-columns: repeat(1, 1fr);
+
+
+}
+
+.catalog-slide-track-2 {
+
+    display: flex;
+    width: max-content;
+    /*3191px;*/
+
+    animation: scroll 50s linear infinite alternate-reverse;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+.catalog-slide-track-2:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+
+    100% {
+        transform: translateX(calc(var(--total-width2) * -1));
+    }
+
+
+}
+
+.catalog-slide-2 {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-right: 10px;
+
+    perspective: 100px;
+
+}
+
+img {
+
+    height: 330px;
+    width: max-content;
+    transition: transform 1.2s;
+
+    filter: brightness(100%);
+    transition: filter 0.5s ease-in-out;
+
+    z-index: 1;
+}
+
+img:hover {
+    animation-play-state: paused;
+
+    filter: brightness(50%);
+
+    z-index: 2;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
